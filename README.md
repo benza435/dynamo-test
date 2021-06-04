@@ -42,6 +42,7 @@ As it does not exist.
 4. Click the 'Create Table' button
 
 5. something may be out-of-sequence with the create table and create user thing
+   https://console.aws.amazon.com/iam/home#/users
 
 6. a user will need to be created to access the database. when this is completed you will be given some mega creds. copy paste them somewhere safe immediately because I dont know where to recover them from.
 

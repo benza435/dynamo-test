@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAllUsers, addOrUpdateUser } = require('./dynamo');
+const { getAllItems, addOrUpdateItem } = require('./dynamo');
 const app = express();
 
 app.get('/', (req, res) => {
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.get('/users', async (req, res) => {
 	try {
-		const users = await getAllUsers();
+		const users = await getAllItems();
 		res.json(users);
 	} catch (error) {
 		console.log(error);

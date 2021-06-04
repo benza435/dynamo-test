@@ -26,4 +26,4 @@ const addOrUpdateItem = async (itemObject) => {
 	return await dynamoClient.put(params).promise();
 };
 
-module.exports = { getAllUsers, addOrUpdateItem };
+module.exports = { getAllItems, addOrUpdateItem };
