@@ -1,3 +1,7 @@
+some mistakes:
+I've written this readme from 3 different perspectives. It is a work in progress, don't take literally please.
+Except git ignoring your .env file, that is pretty important.
+
 ### First experiments with DynamoDB
 
 So far we have a hosted no-sql database, hosted on AWS.
